@@ -72,6 +72,7 @@ RUN set -ex && \
                 openssh \
                 p7zip \
 		postgresql \
+		patchelf \
 		postgresql-dev \
 		postgresql-client
 
