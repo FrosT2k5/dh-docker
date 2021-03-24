@@ -12,6 +12,7 @@ RUN set -ex && \
 		expat-dev \
 		findutils \
 		gcc \
+		g++ \
 		git \
 		gnupg \
 		jq \
