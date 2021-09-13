@@ -78,9 +78,10 @@ RUN set -ex && \
 		postgresql-client
 
 ADD https://raw.githubusercontent.com/FrosT2k5/ProjectFizilion/dragon/requirements.txt requirements.txt
+ADD https://raw.githubusercontent.com/FrosT2k5/ProjectFizilion/demon/requirements.txt req2.txt
 RUN pip install --no-cache-dir -r requirements.txt
-RUN rm -rf requirements.txt
-
+RUN pip install --no-cache-dir -r req2.txt
+RUN rm -rf requirements.txt req2.txt
 
 
 CMD ["python3"]
