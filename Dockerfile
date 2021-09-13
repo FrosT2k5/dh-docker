@@ -22,6 +22,7 @@ RUN set -ex && \
 		libjpeg-turbo-dev \
 		libwebp-dev \
 		libpq \
+                libressl-dev \
 		libxml2 \
 		libxml2-dev \
 		libxslt-dev \
@@ -30,7 +31,6 @@ RUN set -ex && \
 		musl \
 		neofetch \
 		openssl \
-		openssl-dev \
 	        python3 \
                 python3-dev \
                 readline-dev \
